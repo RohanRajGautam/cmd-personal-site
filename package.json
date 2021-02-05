@@ -1,0 +1,25 @@
+{
+  "name": "cmd-website",
+  "version": "1.0.0",
+  "description": "personal site with cmd interface",
+  "main": "index.html",
+  "homepage": "https://rohangautam.com.np/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanRajGautam/cmd-personal-site.git"
+  },
+  "keywords": [
+    "rrg"
+  ],
+  "author": "Rohan Gautam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RohanRajGautam/cmd-personal-site/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
