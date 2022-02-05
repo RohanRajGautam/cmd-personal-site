@@ -70,7 +70,7 @@ const commandData = [
 
 const skillsData = [
   {
-    name: '• ReactJS, and NodeJs',
+    name: '• ReactJS, GatsbyJS, NextJS, NodeJS,',
   },
   {
     name: '• Flutter',
@@ -91,22 +91,22 @@ const skillsData = [
 
 const experienceData = [
   {
-    title: 'Content Creator and UX/UI Designer',
-    company: 'Buzzkeeting',
-    duration: '2016/05 - 2016/08',
+    title: 'Associate Full-Stack Engineer',
+    company: 'Yotcha Services Pvt. Ltd.',
+    duration: '2020/05 - 2021/04',
     location: 'KTM, NP',
   },
   {
     title: 'Software Engineer',
-    company: 'AZminds',
-    duration: '2020/06 - PRESENT',
+    company: 'Webpoint Solutions, LLC',
+    duration: '2021/03 - PRESENT',
     location: 'KTM, NP',
   },
 ];
 
 /* Content for the whois command. Designed to be a string of any length */
 const whoisContent =
-  "<p>Hello there, my name is Rohan 👋 I'm a fullstack web and mobile developer. <br>Feel free to take a look at my latest projects and works here. </p>";
+  "<p>Hi there, my name is Rohan 👋 I'm a fullstack web developer from kathmandu. 🇳🇵 <br>Feel free to take a look at my latest projects and works here. </p>";
 
 const githubContent =
   '<p>- 🖥️ RRG Portfolio 🎉 -</p>' +
@@ -422,7 +422,8 @@ const commandNotFoundPrinter = (userInput, rawInput) => {
 const contactPrinter = () => {
   /* Prints contact details to screen */
   let contactDiv = document.createElement('div');
-  let email = 'rohangautamdev@gmail.com';
+  let email = 'rohanrajgautam@gmail.com';
+  let github = '/rohanrajgautam';
   let facebook = '/rohanrajgautam';
   let instagram = '@iamrrg';
   contactDiv.innerHTML =
@@ -430,7 +431,7 @@ const contactPrinter = () => {
     email +
     '?subject=Hello, Rohan!" target="_blank">' +
     email +
-    '</a> <br>🍪 <a  href="facebook.com/rohanrajgautam">facebook.com/rohanrajgautam</a><br>📷  <a href="instagram.com/iamrrg">instagram.com/iamrrg</a> ';
+    '</a> <br>💻 <a href="https://www.github.com/rohanrajgautam/" target="_blank">github.com/rohanrajgautam</a><br>🍪 <a href="https://www.facebook.com/rohanrajgautam/" target="_blank">facebook.com/rohanrajgautam</a><br>👨‍💼  <a href="https://www.linkedin.com/in/rohanrajgautam/" target="_blank">linkedin.com/rohanrajgautam</a> ';
 
   contactDiv.setAttribute('class', 'ag output-row');
   siteContainer.insertBefore(contactDiv, currentTerminalDiv);
